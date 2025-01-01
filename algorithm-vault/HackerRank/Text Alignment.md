@@ -5,6 +5,7 @@ tags:
   - String
   - python
 ---
+<iframe src="https://www.hackerrank.com/challenges/text-alignment/problem" style="width: 100%; max-width: 800px; height: auto; aspect-ratio: 1/1; @media (max-width: 600px) { aspect-ratio: 4/5; }"></iframe>
 
 ```python
 letter = 'H'
