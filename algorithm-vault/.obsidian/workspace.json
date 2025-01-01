@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "949fd0027646a559",
+    "type": "split",
+    "children": [
+      {
+        "id": "04f99e570ef02cc6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0884ba339000ff15",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HackerRank/Text Alignment.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Text Alignment"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1cb89933589762a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "221ae0ddad7d1289",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c183dbde79cd0954",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3c550f6a8ad28f49",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5c133eb603b34b21",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2ae9b5e2583cd344",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a00fce3097c0a71",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "baa36e851cf30d79",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HackerRank/Text Alignment.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Text Alignment"
+            }
+          },
+          {
+            "id": "73d1144e95d9efc4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "HackerRank/Text Alignment.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Text Alignment"
+            }
+          },
+          {
+            "id": "2bff4a36aa053658",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b21b96f0def372c4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HackerRank/Text Alignment.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Text Alignment"
+            }
+          },
+          {
+            "id": "ee9658f48114b957",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "c183dbde79cd0954",
+  "lastOpenFiles": [
+    "Welcome.md",
+    "HackerRank/Text Alignment.md",
+    "HackerRank"
+  ]
+}
