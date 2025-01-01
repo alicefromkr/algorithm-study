@@ -1,0 +1,29 @@
+name: Sync Vault to S3
+
+on:
+  push:
+    paths:
+      - 'algorithm-vault/**'
+
+jobs:
+  sync-to-s3:
+    runs-on: ubuntu-latest
+    environment: s3
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-region: ${{ secrets.MY_REGION }}
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          
+      - name: Sync vault to S3
+        run: |
+          aws s3 sync ${{ secrets.AWS_VAULT_NAME }} s3://${{ secrets.S3_BUCKET }}/${{ secrets.AWS_VAULT_NAME }} \
+            --delete \
+            --exclude ".obsidian/*" \
+            --exclude ".obsidian/**"
